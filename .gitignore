@@ -1,0 +1,9 @@
+# dataset
+chest_xray/
+
+# files
+sandbox.ipynb
+
+# computer specific
+.DS_Store
+
