@@ -7,3 +7,6 @@ sandbox.ipynb
 # computer specific
 .DS_Store
 
+# folders
+.ipynb_checkpoints/
+
