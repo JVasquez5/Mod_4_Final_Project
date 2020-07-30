@@ -6,9 +6,11 @@ Validation/
 
 #Files
 sandbox.ipynb
+sandbox_2.ipynb
 
 #Computer specific
 .DS_Store
+
 
 #Folders
 .ipynb_checkpoints/
