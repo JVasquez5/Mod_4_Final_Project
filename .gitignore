@@ -1,13 +1,17 @@
-# dataset
+#Dataset
 chest_xray/
+Test/
+Train/
+Validation/
 
-# files
+#Files
 sandbox.ipynb
 sandbox_2.ipynb
 
-# computer specific
+#Computer specific
 .DS_Store
 
-# folders
+
+#Folders
 .ipynb_checkpoints/
 
