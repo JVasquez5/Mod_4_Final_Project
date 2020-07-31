@@ -36,7 +36,7 @@ Thankfully, this dataset is very clean however upon downloading the dataset from
 
 To address the class imbalance we decided to redistribute the Normal versus Pneumonia images within the train, test, and validation sets. After said distribution the test folder contained (158 Normal & 427 Pneumonia Images), train folder contained (1266 Normal & 3418 Pneumonia Images), and the validation folder contained (159 Normal and 428 Pneumonia Images).  
 
-Thus, we felt this would reflect positively in our analysis going forward.
+Thus, we felt this would reflect positively in our analysis going forward. However, to be clear our models did not include the redistributed images as the results were not on par with previous iterations. Thus, the following models used image augmentation to address the class imbalance.
 
 <p align='center'>
 <img src='images/Post_Bar_Graph.png'>
@@ -63,6 +63,8 @@ Non-trainable params: 0
 <p align='center'>
 <img src='images/VGG16.png'>
 </p>
+
+https://towardsdatascience.com/illustrated-10-cnn-architectures-95d78ace614d
 
 ### Conclusion
 
