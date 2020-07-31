@@ -64,48 +64,6 @@ Non-trainable params: 0
 <img src='images/VGG16.png'>
 </p>
 
-Layer (type)                 Output Shape              Param #   
-
-zero_padding2d_52 (ZeroPaddi (None, 66, 66, 3)         0         
-conv2d_54 (Conv2D)           (None, 64, 64, 64)        1792  
-zero_padding2d_53 (ZeroPaddi (None, 66, 66, 64)        0       
-conv2d_55 (Conv2D)           (None, 64, 64, 64)        36928    
-max_pooling2d_22 (MaxPooling (None, 32, 32, 64)        0         
-zero_padding2d_54 (ZeroPaddi (None, 34, 34, 64)        0         
-conv2d_56 (Conv2D)           (None, 32, 32, 128)       73856     
-zero_padding2d_55 (ZeroPaddi (None, 34, 34, 128)       0         
-conv2d_57 (Conv2D)           (None, 32, 32, 128)       147584    
-max_pooling2d_23 (MaxPooling (None, 16, 16, 128)       0        
-zero_padding2d_56 (ZeroPaddi (None, 18, 18, 128)       0         
-conv2d_58 (Conv2D)           (None, 16, 16, 256)       295168    
-zero_padding2d_57 (ZeroPaddi (None, 18, 18, 256)       0         
-conv2d_59 (Conv2D)           (None, 16, 16, 256)       590080    
-zero_padding2d_58 (ZeroPaddi (None, 18, 18, 256)       0         
-conv2d_60 (Conv2D)           (None, 16, 16, 256)       590080  
-max_pooling2d_24 (MaxPooling (None, 8, 8, 256)         0        
-zero_padding2d_59 (ZeroPaddi (None, 10, 10, 256)       0         
-conv2d_61 (Conv2D)           (None, 8, 8, 512)         1180160   
-zero_padding2d_60 (ZeroPaddi (None, 10, 10, 512)       0         
-conv2d_62 (Conv2D)           (None, 8, 8, 512)         2359808   
-zero_padding2d_61 (ZeroPaddi (None, 10, 10, 512)       0         
-conv2d_63 (Conv2D)           (None, 8, 8, 512)         2359808   
-max_pooling2d_25 (MaxPooling (None, 4, 4, 512)         0         
-zero_padding2d_62 (ZeroPaddi (None, 6, 6, 512)         0         
-conv2d_64 (Conv2D)           (None, 4, 4, 512)         2359808   
-zero_padding2d_63 (ZeroPaddi (None, 6, 6, 512)         0         
-conv2d_65 (Conv2D)           (None, 4, 4, 512)         2359808   
-zero_padding2d_64 (ZeroPaddi (None, 6, 6, 512)         0         
-conv2d_66 (Conv2D)           (None, 4, 4, 512)         2359808
-max_pooling2d_26 (MaxPooling (None, 2, 2, 512)         0
-flatten_5 (Flatten)          (None, 2048)              0         
-dense_14 (Dense)             (None, 4096)              8392704   
-dense_15 (Dense)             (None, 4096)              16781312  
-dense_16 (Dense)             (None, 1)                 4097      
-
-Total params: 39,892,801
-Trainable params: 39,892,801
-Non-trainable params: 0
-
 ### Conclusion
 
 Saving children from pneumonia requires urgent action and recognizing danger signs. Thus providing diagnostic tools that can accurately diagnosis pneumonia is crucial.
